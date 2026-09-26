@@ -11,7 +11,7 @@ library(dplyr)
 library(logistf)
 
 # Load dataset
-datos <- read_excel("rutadelarchivo")
+datos <- read_excel("dengue.xls")
 View(datos)
 
 # Remove any leading or trailing spaces from names.
