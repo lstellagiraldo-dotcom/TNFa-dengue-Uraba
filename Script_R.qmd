@@ -11,7 +11,7 @@ library(dplyr)
 library(logistf)
 
 # Load dataset
-datos <- read_excel("C:/Users/lstel/Dropbox/FUSM/Dengue/Artículo Polimorfismos/BD 060826 COMPLETO.xls")
+datos <- read_excel("Dengue.xls")
 View(datos)
 
 # Remove any leading or trailing spaces from names.
